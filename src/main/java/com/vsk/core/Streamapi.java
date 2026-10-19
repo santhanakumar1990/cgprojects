@@ -14,6 +14,8 @@ public class Streamapi {
                 .filter(name -> name.startsWith("J"))
                 .collect(Collectors.toList());
 
-        System.out.println("Filtered Names: " + filteredNames);
+        // Print the even numbers
+        System.out.println("Even Numbers: " + evenNumbers);
+        System.out.println("Even Numbers Count: " + evenNumbers.size());
     }
 }
