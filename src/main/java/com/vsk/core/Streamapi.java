@@ -17,5 +17,6 @@ public class Streamapi {
 
         // Print the even numbers
         System.out.println("Even Numbers: " + evenNumbers);
+        System.out.println("Even Numbers Count: " + evenNumbers.size());
     }
 }
